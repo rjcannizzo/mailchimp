@@ -3,7 +3,7 @@ build_sales_table()
     - Create and populate the Shopify 'sales' table.
     - NOTE: We don't update the table; we recreate it everytime we need to run queries.
     - this table has the following columns: 'email', 'total_spent', 'order_count'
-get_shopify_sales_values()
+get_shopify_sales_data()
     - A generator that yields the data for the 'sales' table.
     - To get the data, export all Customers from Shopify to the 'shopify_data_folder'.
 WARNINGS:
@@ -17,7 +17,7 @@ from rc.db.sqlite_3.oop import Database
 HOME_DIR = Path(__file__).resolve().parent
 
 
-def get_shopify_sales_values(shopify_data_folder):
+def get_shopify_sales_data(shopify_data_folder):
     """
     Generator that yields from all csv files found in the 'shopify_data_folder'.
     data yielded: email, total spent and total orders
@@ -35,27 +35,28 @@ def get_shopify_sales_values(shopify_data_folder):
                     yield row['Email'], row['Total Spent'], row['Total Orders']
 
 
-def build_sales_table(database):
+def build_sales_table(database, shopify_data_folder):
     """
     This function is used to create AND populate the Shopify 'sales' table.
     NOTE: We drop and recreate the table each time rather than updating its values.
     :return: None
     """
-    drop_table_query = """DROP TABLE IF EXISTS 'sales';"""
     insert_query = """INSERT INTO sales ('email', 'total_spent', 'order_count') VALUES (?,?,?);"""
     create_table_query = \
         """CREATE TABLE "sales" ("email" TEXT, "total_spent" REAL, "order_count" INTEGER, PRIMARY KEY("email"));"""
 
     db = Database(database)
-    db.run_script(drop_table_query)
+    db.run_script("""DROP TABLE IF EXISTS 'sales';""")
     db.create_table(create_table_query)
-    values = get_shopify_sales_values(shopify_data_folder=HOME_DIR.joinpath('data/shopify'))
+    values = get_shopify_sales_data(shopify_data_folder)
     db.insert_many(query=insert_query, values=values)
     print(f"Added {db.get_total_changes()} rows to Shopify 'sales' table.")
 
 
 def main():
-    build_sales_table(HOME_DIR.joinpath('db/test.db'))
+    database = HOME_DIR.joinpath('db/test.db')
+    shopify_data_folder = HOME_DIR.joinpath('data/shopify')
+    build_sales_table(database, shopify_data_folder)
 
 
 if __name__ == '__main__':
