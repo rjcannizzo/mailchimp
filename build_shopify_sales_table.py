@@ -1,13 +1,13 @@
 """
-create_shopify_sales_table()
+build_sales_table()
     - Create and populate the Shopify 'sales' table.
+    - NOTE: We don't update the table; we recreate it everytime we need to run queries.
     - this table has the following columns: 'email', 'total_spent', 'order_count'
-    - NOTE: We create this table everytime we need to run queries.
 get_shopify_sales_values()
-    - A generator that yields the data needed to populate the 'sales' table.
+    - A generator that yields the data for the 'sales' table.
     - To get the data, export all Customers from Shopify to the 'shopify_data_folder'.
 WARNINGS:
-    - Shopify customer exports may have empty string values for Email and this causes insertion errors.
+    - Shopify customer exports contains empty values ('') for some emails causing insertion errors.
 11-4-2020
 """
 import csv
@@ -35,16 +35,16 @@ def get_shopify_sales_values(shopify_data_folder):
                     yield row['Email'], row['Total Spent'], row['Total Orders']
 
 
-def create_shopify_sales_table(database):
+def build_sales_table(database):
     """
-    This function is used to both create AND populate the shopify 'sales' table.
+    This function is used to create AND populate the Shopify 'sales' table.
     NOTE: We drop and recreate the table each time rather than updating its values.
     :return: None
     """
-    drop_table_query = """DROP TABLE IF EXISTS 'sales'; """
+    drop_table_query = """DROP TABLE IF EXISTS 'sales';"""
     insert_query = """INSERT INTO sales ('email', 'total_spent', 'order_count') VALUES (?,?,?);"""
-    create_table_query = """CREATE TABLE "sales" (
-    "email"	TEXT, "total_spent" REAL, "order_count" INTEGER, PRIMARY KEY("email"));"""
+    create_table_query = \
+        """CREATE TABLE "sales" ("email" TEXT, "total_spent" REAL, "order_count" INTEGER, PRIMARY KEY("email"));"""
 
     db = Database(database)
     db.run_script(drop_table_query)
@@ -55,7 +55,7 @@ def create_shopify_sales_table(database):
 
 
 def main():
-    create_shopify_sales_table(HOME_DIR.joinpath('db/test.db'))
+    build_sales_table(HOME_DIR.joinpath('db/test.db'))
 
 
 if __name__ == '__main__':
