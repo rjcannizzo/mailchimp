@@ -52,8 +52,8 @@ def insert_user_data(db, csv_file, subscriber_set):
     :return: none
     """
     query = """INSERT INTO user (email_id, email, status, rating, created, updated) VALUES(?,?,?,?,?,?);"""
-    db.insert_many(query, read_csv(csv_file, subscriber_set))
-    print(f"Added {db.get_total_changes()} rows to Mailchimp 'user' table.")
+    rowcount = db.insert_many(query, read_csv(csv_file, subscriber_set))
+    print(f"Added {rowcount} rows to Mailchimp 'user' table.")
 
 
 if __name__ == '__main__':

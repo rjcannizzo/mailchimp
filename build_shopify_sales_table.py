@@ -48,8 +48,8 @@ def build_sales_table(db, shopify_data_folder):
     db.run_script("""DROP TABLE IF EXISTS 'sales';""")
     db.create_table(create_table_query)
     values = get_shopify_sales_data(shopify_data_folder)
-    db.insert_many(query=insert_query, values=values)
-    print(f"Added {db.get_total_changes()} rows to Shopify 'sales' table.")
+    rowcount = db.insert_many(query=insert_query, values=values)
+    print(f"Added {rowcount} rows to Shopify 'sales' table.")
 
 
 def main():
