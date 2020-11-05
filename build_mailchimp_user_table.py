@@ -21,12 +21,11 @@ def create_user_table(db):
     db.create_table(create_query)
 
 
-def build_users_table(_database):
-    db = Database(_database)
+def build_users_table(db):
     db.run_script("""DROP TABLE IF EXISTS 'user';""")
     create_user_table(db)
 
 
 if __name__ == '__main__':
-    database = HOME_DIR.joinpath('db/test.db')
+    database = Database(HOME_DIR.joinpath('db/test.db'))
     build_users_table(database)

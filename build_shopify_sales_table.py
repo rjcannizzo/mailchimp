@@ -35,7 +35,7 @@ def get_shopify_sales_data(shopify_data_folder):
                     yield row['Email'], row['Total Spent'], row['Total Orders']
 
 
-def build_sales_table(database, shopify_data_folder):
+def build_sales_table(db, shopify_data_folder):
     """
     This function is used to create AND populate the Shopify 'sales' table.
     NOTE: We drop and recreate the table each time rather than updating its values.
@@ -45,7 +45,6 @@ def build_sales_table(database, shopify_data_folder):
     create_table_query = \
         """CREATE TABLE "sales" ("email" TEXT, "total_spent" REAL, "order_count" INTEGER, PRIMARY KEY("email"));"""
 
-    db = Database(database)
     db.run_script("""DROP TABLE IF EXISTS 'sales';""")
     db.create_table(create_table_query)
     values = get_shopify_sales_data(shopify_data_folder)
@@ -54,7 +53,7 @@ def build_sales_table(database, shopify_data_folder):
 
 
 def main():
-    database = HOME_DIR.joinpath('db/test.db')
+    database = Database(HOME_DIR.joinpath('db/test.db'))
     shopify_data_folder = HOME_DIR.joinpath('data/shopify')
     build_sales_table(database, shopify_data_folder)
 
