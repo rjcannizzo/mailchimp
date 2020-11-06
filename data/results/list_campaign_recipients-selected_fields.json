@@ -1,0 +1,64 @@
+{
+    "sent_to": [
+        {
+            "email_id": "312593460840fb7c148cb9f8a874f1c9",
+            "email_address": "peterjware@blueyonder.co.uk",
+            "open_count": 1,
+            "last_open": "2020-10-13T18:16:16+00:00"
+        },
+        {
+            "email_id": "7dcdeb182959836ec0a915975b0b5336",
+            "email_address": "jonesjoe24@yahoo.com",
+            "open_count": 0,
+            "last_open": ""
+        },
+        {
+            "email_id": "7d2b6fd38f1fe7c9c2814ec191acaebe",
+            "email_address": "alex.yorke@blueyonder.co.uk",
+            "open_count": 0,
+            "last_open": ""
+        },
+        {
+            "email_id": "5564a97640f9df3c378bffe98e7af84f",
+            "email_address": "bizor50@gmail.com",
+            "open_count": 1,
+            "last_open": "2020-10-26T23:21:14+00:00"
+        },
+        {
+            "email_id": "169b6889f6e910735c67f22484d11d57",
+            "email_address": "bizzarre007@gmail.com",
+            "open_count": 3,
+            "last_open": "2020-10-16T03:44:16+00:00"
+        },
+        {
+            "email_id": "69f928c004b52fbf633bd187e758e4df",
+            "email_address": "cithoge@gmail.com",
+            "open_count": 3,
+            "last_open": "2020-10-13T21:22:36+00:00"
+        },
+        {
+            "email_id": "a7e1e0e3c35c73ebd7c1719c0da7599c",
+            "email_address": "clunyed@bigpond.net.au",
+            "open_count": 2,
+            "last_open": "2020-10-14T00:51:03+00:00"
+        },
+        {
+            "email_id": "7e507d63e5dfbe4bfc318ad0ce8910ec",
+            "email_address": "cpl5571@hotmail.com",
+            "open_count": 0,
+            "last_open": ""
+        },
+        {
+            "email_id": "ea66cadd9f892494eb4714caf2bdd36f",
+            "email_address": "donint01@gmail.com",
+            "open_count": 7,
+            "last_open": "2020-10-30T17:04:56+00:00"
+        },
+        {
+            "email_id": "743bcc0024b4833771658d60d3100d7e",
+            "email_address": "donniman1234@gmail.com",
+            "open_count": 1,
+            "last_open": "2020-10-16T03:44:03+00:00"
+        }
+    ]
+}

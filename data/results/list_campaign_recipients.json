@@ -1,0 +1,480 @@
+{
+    "sent_to": [
+        {
+            "email_id": "312593460840fb7c148cb9f8a874f1c9",
+            "email_address": "peterjware@blueyonder.co.uk",
+            "merge_fields": {
+                "FNAME": "",
+                "LNAME": "",
+                "ADDRESS": "",
+                "PHONE": "",
+                "MMERGE5": "",
+                "MMERGE6": "",
+                "MMERGE7": "",
+                "MMERGE8": "",
+                "MMERGE9": "",
+                "MMERGE10": "",
+                "MMERGE11": ""
+            },
+            "vip": false,
+            "status": "sent",
+            "open_count": 1,
+            "last_open": "2020-10-13T18:16:16+00:00",
+            "absplit_group": "",
+            "gmt_offset": 0,
+            "campaign_id": "04d7a78953",
+            "list_id": "761df5fbb3",
+            "list_is_active": true,
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/CollectionResponse.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to/312593460840fb7c148cb9f8a874f1c9",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/Response.json"
+                },
+                {
+                    "rel": "member",
+                    "href": "https://us9.api.mailchimp.com/3.0/lists/761df5fbb3/members/312593460840fb7c148cb9f8a874f1c9",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Response.json"
+                }
+            ]
+        },
+        {
+            "email_id": "7dcdeb182959836ec0a915975b0b5336",
+            "email_address": "jonesjoe24@yahoo.com",
+            "merge_fields": {
+                "FNAME": "",
+                "LNAME": "",
+                "ADDRESS": "",
+                "PHONE": "",
+                "MMERGE5": "",
+                "MMERGE6": "",
+                "MMERGE7": "",
+                "MMERGE8": "",
+                "MMERGE9": "",
+                "MMERGE10": "",
+                "MMERGE11": ""
+            },
+            "vip": false,
+            "status": "sent",
+            "open_count": 0,
+            "last_open": "",
+            "absplit_group": "",
+            "gmt_offset": 0,
+            "campaign_id": "04d7a78953",
+            "list_id": "761df5fbb3",
+            "list_is_active": true,
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/CollectionResponse.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to/7dcdeb182959836ec0a915975b0b5336",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/Response.json"
+                },
+                {
+                    "rel": "member",
+                    "href": "https://us9.api.mailchimp.com/3.0/lists/761df5fbb3/members/7dcdeb182959836ec0a915975b0b5336",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Response.json"
+                }
+            ]
+        },
+        {
+            "email_id": "7d2b6fd38f1fe7c9c2814ec191acaebe",
+            "email_address": "alex.yorke@blueyonder.co.uk",
+            "merge_fields": {
+                "FNAME": "",
+                "LNAME": "",
+                "ADDRESS": "",
+                "PHONE": "",
+                "MMERGE5": "",
+                "MMERGE6": "",
+                "MMERGE7": "",
+                "MMERGE8": "",
+                "MMERGE9": "",
+                "MMERGE10": "",
+                "MMERGE11": ""
+            },
+            "vip": false,
+            "status": "sent",
+            "open_count": 0,
+            "last_open": "",
+            "absplit_group": "",
+            "gmt_offset": 0,
+            "campaign_id": "04d7a78953",
+            "list_id": "761df5fbb3",
+            "list_is_active": true,
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/CollectionResponse.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to/7d2b6fd38f1fe7c9c2814ec191acaebe",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/Response.json"
+                },
+                {
+                    "rel": "member",
+                    "href": "https://us9.api.mailchimp.com/3.0/lists/761df5fbb3/members/7d2b6fd38f1fe7c9c2814ec191acaebe",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Response.json"
+                }
+            ]
+        },
+        {
+            "email_id": "5564a97640f9df3c378bffe98e7af84f",
+            "email_address": "bizor50@gmail.com",
+            "merge_fields": {
+                "FNAME": "",
+                "LNAME": "",
+                "ADDRESS": "",
+                "PHONE": "",
+                "MMERGE5": "",
+                "MMERGE6": "",
+                "MMERGE7": "",
+                "MMERGE8": "",
+                "MMERGE9": "",
+                "MMERGE10": "",
+                "MMERGE11": ""
+            },
+            "vip": false,
+            "status": "sent",
+            "open_count": 1,
+            "last_open": "2020-10-26T23:21:14+00:00",
+            "absplit_group": "",
+            "gmt_offset": 0,
+            "campaign_id": "04d7a78953",
+            "list_id": "761df5fbb3",
+            "list_is_active": true,
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/CollectionResponse.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to/5564a97640f9df3c378bffe98e7af84f",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/Response.json"
+                },
+                {
+                    "rel": "member",
+                    "href": "https://us9.api.mailchimp.com/3.0/lists/761df5fbb3/members/5564a97640f9df3c378bffe98e7af84f",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Response.json"
+                }
+            ]
+        },
+        {
+            "email_id": "169b6889f6e910735c67f22484d11d57",
+            "email_address": "bizzarre007@gmail.com",
+            "merge_fields": {
+                "FNAME": "",
+                "LNAME": "",
+                "ADDRESS": "",
+                "PHONE": "",
+                "MMERGE5": "",
+                "MMERGE6": "",
+                "MMERGE7": "",
+                "MMERGE8": "",
+                "MMERGE9": "",
+                "MMERGE10": "",
+                "MMERGE11": ""
+            },
+            "vip": false,
+            "status": "sent",
+            "open_count": 3,
+            "last_open": "2020-10-16T03:44:16+00:00",
+            "absplit_group": "",
+            "gmt_offset": 0,
+            "campaign_id": "04d7a78953",
+            "list_id": "761df5fbb3",
+            "list_is_active": true,
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/CollectionResponse.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to/169b6889f6e910735c67f22484d11d57",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/Response.json"
+                },
+                {
+                    "rel": "member",
+                    "href": "https://us9.api.mailchimp.com/3.0/lists/761df5fbb3/members/169b6889f6e910735c67f22484d11d57",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Response.json"
+                }
+            ]
+        },
+        {
+            "email_id": "69f928c004b52fbf633bd187e758e4df",
+            "email_address": "cithoge@gmail.com",
+            "merge_fields": {
+                "FNAME": "",
+                "LNAME": "",
+                "ADDRESS": "",
+                "PHONE": "",
+                "MMERGE5": "",
+                "MMERGE6": "",
+                "MMERGE7": "",
+                "MMERGE8": "",
+                "MMERGE9": "",
+                "MMERGE10": "",
+                "MMERGE11": ""
+            },
+            "vip": false,
+            "status": "sent",
+            "open_count": 3,
+            "last_open": "2020-10-13T21:22:36+00:00",
+            "absplit_group": "",
+            "gmt_offset": 0,
+            "campaign_id": "04d7a78953",
+            "list_id": "761df5fbb3",
+            "list_is_active": true,
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/CollectionResponse.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to/69f928c004b52fbf633bd187e758e4df",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/Response.json"
+                },
+                {
+                    "rel": "member",
+                    "href": "https://us9.api.mailchimp.com/3.0/lists/761df5fbb3/members/69f928c004b52fbf633bd187e758e4df",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Response.json"
+                }
+            ]
+        },
+        {
+            "email_id": "a7e1e0e3c35c73ebd7c1719c0da7599c",
+            "email_address": "clunyed@bigpond.net.au",
+            "merge_fields": {
+                "FNAME": "",
+                "LNAME": "",
+                "ADDRESS": "",
+                "PHONE": "",
+                "MMERGE5": "",
+                "MMERGE6": "",
+                "MMERGE7": "",
+                "MMERGE8": "",
+                "MMERGE9": "",
+                "MMERGE10": "",
+                "MMERGE11": ""
+            },
+            "vip": false,
+            "status": "sent",
+            "open_count": 2,
+            "last_open": "2020-10-14T00:51:03+00:00",
+            "absplit_group": "",
+            "gmt_offset": 0,
+            "campaign_id": "04d7a78953",
+            "list_id": "761df5fbb3",
+            "list_is_active": true,
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/CollectionResponse.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to/a7e1e0e3c35c73ebd7c1719c0da7599c",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/Response.json"
+                },
+                {
+                    "rel": "member",
+                    "href": "https://us9.api.mailchimp.com/3.0/lists/761df5fbb3/members/a7e1e0e3c35c73ebd7c1719c0da7599c",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Response.json"
+                }
+            ]
+        },
+        {
+            "email_id": "7e507d63e5dfbe4bfc318ad0ce8910ec",
+            "email_address": "cpl5571@hotmail.com",
+            "merge_fields": {
+                "FNAME": "",
+                "LNAME": "",
+                "ADDRESS": "",
+                "PHONE": "",
+                "MMERGE5": "",
+                "MMERGE6": "",
+                "MMERGE7": "",
+                "MMERGE8": "",
+                "MMERGE9": "",
+                "MMERGE10": "",
+                "MMERGE11": ""
+            },
+            "vip": false,
+            "status": "sent",
+            "open_count": 0,
+            "last_open": "",
+            "absplit_group": "",
+            "gmt_offset": 0,
+            "campaign_id": "04d7a78953",
+            "list_id": "761df5fbb3",
+            "list_is_active": true,
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/CollectionResponse.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to/7e507d63e5dfbe4bfc318ad0ce8910ec",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/Response.json"
+                },
+                {
+                    "rel": "member",
+                    "href": "https://us9.api.mailchimp.com/3.0/lists/761df5fbb3/members/7e507d63e5dfbe4bfc318ad0ce8910ec",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Response.json"
+                }
+            ]
+        },
+        {
+            "email_id": "ea66cadd9f892494eb4714caf2bdd36f",
+            "email_address": "donint01@gmail.com",
+            "merge_fields": {
+                "FNAME": "",
+                "LNAME": "",
+                "ADDRESS": "",
+                "PHONE": "",
+                "MMERGE5": "",
+                "MMERGE6": "",
+                "MMERGE7": "",
+                "MMERGE8": "",
+                "MMERGE9": "",
+                "MMERGE10": "",
+                "MMERGE11": ""
+            },
+            "vip": false,
+            "status": "sent",
+            "open_count": 7,
+            "last_open": "2020-10-30T17:04:56+00:00",
+            "absplit_group": "",
+            "gmt_offset": 0,
+            "campaign_id": "04d7a78953",
+            "list_id": "761df5fbb3",
+            "list_is_active": true,
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/CollectionResponse.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to/ea66cadd9f892494eb4714caf2bdd36f",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/Response.json"
+                },
+                {
+                    "rel": "member",
+                    "href": "https://us9.api.mailchimp.com/3.0/lists/761df5fbb3/members/ea66cadd9f892494eb4714caf2bdd36f",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Response.json"
+                }
+            ]
+        },
+        {
+            "email_id": "743bcc0024b4833771658d60d3100d7e",
+            "email_address": "donniman1234@gmail.com",
+            "merge_fields": {
+                "FNAME": "",
+                "LNAME": "",
+                "ADDRESS": "",
+                "PHONE": "",
+                "MMERGE5": "",
+                "MMERGE6": "",
+                "MMERGE7": "",
+                "MMERGE8": "",
+                "MMERGE9": "",
+                "MMERGE10": "",
+                "MMERGE11": ""
+            },
+            "vip": false,
+            "status": "sent",
+            "open_count": 1,
+            "last_open": "2020-10-16T03:44:03+00:00",
+            "absplit_group": "",
+            "gmt_offset": 0,
+            "campaign_id": "04d7a78953",
+            "list_id": "761df5fbb3",
+            "list_is_active": true,
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/CollectionResponse.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to/743bcc0024b4833771658d60d3100d7e",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/Response.json"
+                },
+                {
+                    "rel": "member",
+                    "href": "https://us9.api.mailchimp.com/3.0/lists/761df5fbb3/members/743bcc0024b4833771658d60d3100d7e",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Lists/Members/Response.json"
+                }
+            ]
+        }
+    ],
+    "campaign_id": "04d7a78953",
+    "total_items": 37,
+    "_links": [
+        {
+            "rel": "parent",
+            "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953",
+            "method": "GET",
+            "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/Response.json"
+        },
+        {
+            "rel": "self",
+            "href": "https://us9.api.mailchimp.com/3.0/reports/04d7a78953/sent-to",
+            "method": "GET",
+            "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Reports/SentTo/CollectionResponse.json"
+        }
+    ]
+}

@@ -55,13 +55,34 @@ def get_campaigns(configs, list_id="761df5fbb3"):
         print("Error: {}".format(error.text))
 
 
+def list_campaign_recipients(configs, campaign_id):
+
+    try:
+        client = MailchimpMarketing.Client()
+        client.set_config({
+            "api_key": configs['key'],
+            "server": configs['server']
+        })
+        response = client.reports.get_campaign_recipients(campaign_id=campaign_id,
+                                                          fields=['sent_to.email_id',
+                                                                  'sent_to.email_address',
+                                                                  'sent_to.open_count',
+                                                                  'sent_to.last_open'])
+        return response
+    except ApiClientError as error:
+        print("Error: {}".format(error.text))
+
+
 def save_query_results(out_file_name):
     configs = get_config_file()
-    # result = get_campaigns(configs)
-    # out_file = HOME_DIR.joinpath('data/results').joinpath(out_file_name)
-    # write_to_json_file(out_file, result)
+    result = list_campaign_recipients(configs, '04d7a78953')
+    out_file = HOME_DIR.joinpath('data/results').joinpath(out_file_name)
+    write_to_json_file(out_file, result)
+
+
+
 
 
 if __name__ == '__main__':
     config_info = get_config_file()
-    save_query_results()
+    save_query_results('list_campaign_recipients-selected_fields.json')

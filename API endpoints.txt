@@ -6,7 +6,7 @@
 
 2. https://mailchimp.com/developer/api/marketing/sent-to-reports/list-campaign-recipients/
     - Get information about campaign recipients.
-    - email_id, email_address, status, last_open
+    - email_id, email_address, last_open
 
 3. https://mailchimp.com/developer/api/marketing/campaigns/list-campaigns/
     - Get all campaigns in an account.
