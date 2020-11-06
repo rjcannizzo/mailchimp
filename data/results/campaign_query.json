@@ -1,0 +1,1346 @@
+{
+    "campaigns": [
+        {
+            "id": "04d7a78953",
+            "web_id": 2745078,
+            "type": "regular",
+            "create_time": "2020-10-13T16:47:45+00:00",
+            "archive_url": "http://eepurl.com/hf0hCr",
+            "long_archive_url": "https://mailchi.mp/groovemonkee/groove-monkee-order-follow-up-4vtu958lqc",
+            "status": "sent",
+            "emails_sent": 37,
+            "send_time": "2020-10-13T16:51:29+00:00",
+            "content_type": "template",
+            "needs_block_refresh": false,
+            "resendable": true,
+            "recipients": {
+                "list_id": "761df5fbb3",
+                "list_is_active": true,
+                "list_name": "current",
+                "segment_text": "<p class=\"!margin--lv0 display--inline\">Contacts that match <strong>all</strong> of the following conditions:</p><ol id=\"conditions\" class=\"small-meta text-transform--none\"><li class=\"margin--lv1 !margin-left-right--lv0\">Signup Source was <strong>Import - #700358 - 10/13/2020 - CSV</strong></li></ol><span>For a total of <strong>37</strong> emails sent.</span>",
+                "recipient_count": 37,
+                "segment_opts": {
+                    "match": "all",
+                    "conditions": [
+                        {
+                            "condition_type": "SignupSource",
+                            "field": "source",
+                            "op": "source_is",
+                            "value": "Import",
+                            "extra": 700358
+                        }
+                    ]
+                }
+            },
+            "settings": {
+                "subject_line": "Groove Monkee Order Follow up",
+                "preview_text": "Need Help? Just checking in to see if you need assistance...",
+                "title": "",
+                "from_name": "Groove Monkee",
+                "reply_to": "contact@groovemonkee.com",
+                "use_conversation": false,
+                "to_name": "",
+                "folder_id": "",
+                "authenticate": true,
+                "auto_footer": false,
+                "inline_css": false,
+                "auto_tweet": false,
+                "fb_comments": true,
+                "timewarp": false,
+                "template_id": 473981,
+                "drag_and_drop": true
+            },
+            "tracking": {
+                "opens": true,
+                "html_clicks": true,
+                "text_clicks": false,
+                "goal_tracking": false,
+                "ecomm360": true,
+                "google_analytics": "",
+                "clicktale": ""
+            },
+            "report_summary": {
+                "opens": 47,
+                "unique_opens": 25,
+                "open_rate": 0.6944444444444444,
+                "clicks": 9,
+                "subscriber_clicks": 3,
+                "click_rate": 0.08333333333333333,
+                "ecommerce": {
+                    "total_orders": 0,
+                    "total_spent": 0,
+                    "total_revenue": 0
+                }
+            },
+            "delivery_status": {
+                "enabled": false
+            },
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/CollectionResponse.json",
+                    "schema": "https://us9.api.mailchimp.com/schema/3.0/CollectionLinks/Campaigns.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/04d7a78953",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Response.json"
+                },
+                {
+                    "rel": "delete",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/04d7a78953",
+                    "method": "DELETE"
+                },
+                {
+                    "rel": "send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/04d7a78953/actions/send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "cancel_send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/04d7a78953/actions/cancel-send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "feedback",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/04d7a78953/feedback",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Feedback/CollectionResponse.json"
+                },
+                {
+                    "rel": "content",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/04d7a78953/content",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Content/Response.json"
+                },
+                {
+                    "rel": "send_checklist",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/04d7a78953/send-checklist",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Checklist/Response.json"
+                },
+                {
+                    "rel": "pause",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/04d7a78953/actions/pause",
+                    "method": "POST"
+                },
+                {
+                    "rel": "resume",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/04d7a78953/actions/resume",
+                    "method": "POST"
+                },
+                {
+                    "rel": "replicate",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/04d7a78953/actions/replicate",
+                    "method": "POST"
+                },
+                {
+                    "rel": "create_resend",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/04d7a78953/actions/create-resend",
+                    "method": "POST"
+                }
+            ]
+        },
+        {
+            "id": "07b4203041",
+            "web_id": 2744889,
+            "type": "regular",
+            "create_time": "2019-06-30T12:24:41+00:00",
+            "archive_url": "http://eepurl.com/gweGY1",
+            "long_archive_url": "https://mailchi.mp/groovemonkee/july-4th-2019",
+            "status": "sent",
+            "emails_sent": 15837,
+            "send_time": "2019-06-30T13:30:00+00:00",
+            "content_type": "template",
+            "needs_block_refresh": false,
+            "resendable": true,
+            "recipients": {
+                "list_id": "761df5fbb3",
+                "list_is_active": true,
+                "list_name": "current",
+                "segment_text": "",
+                "recipient_count": 15837
+            },
+            "settings": {
+                "subject_line": "July 4th Savings Event",
+                "preview_text": "Save on everything in our shop - No coupon codes necessary",
+                "title": "",
+                "from_name": "Groove Monkee",
+                "reply_to": "contact@groovemonkee.com",
+                "use_conversation": false,
+                "to_name": "",
+                "folder_id": "",
+                "authenticate": true,
+                "auto_footer": false,
+                "inline_css": false,
+                "auto_tweet": false,
+                "fb_comments": true,
+                "timewarp": false,
+                "template_id": 478221,
+                "drag_and_drop": true
+            },
+            "tracking": {
+                "opens": true,
+                "html_clicks": true,
+                "text_clicks": false,
+                "goal_tracking": false,
+                "ecomm360": true,
+                "google_analytics": "",
+                "clicktale": ""
+            },
+            "report_summary": {
+                "opens": 6353,
+                "unique_opens": 4399,
+                "open_rate": 0.27841772151898736,
+                "clicks": 635,
+                "subscriber_clicks": 451,
+                "click_rate": 0.028544303797468355,
+                "ecommerce": {
+                    "total_orders": 0,
+                    "total_spent": 0,
+                    "total_revenue": 0
+                }
+            },
+            "delivery_status": {
+                "enabled": false
+            },
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/CollectionResponse.json",
+                    "schema": "https://us9.api.mailchimp.com/schema/3.0/CollectionLinks/Campaigns.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07b4203041",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Response.json"
+                },
+                {
+                    "rel": "delete",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07b4203041",
+                    "method": "DELETE"
+                },
+                {
+                    "rel": "send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07b4203041/actions/send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "cancel_send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07b4203041/actions/cancel-send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "feedback",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07b4203041/feedback",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Feedback/CollectionResponse.json"
+                },
+                {
+                    "rel": "content",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07b4203041/content",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Content/Response.json"
+                },
+                {
+                    "rel": "send_checklist",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07b4203041/send-checklist",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Checklist/Response.json"
+                },
+                {
+                    "rel": "pause",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07b4203041/actions/pause",
+                    "method": "POST"
+                },
+                {
+                    "rel": "resume",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07b4203041/actions/resume",
+                    "method": "POST"
+                },
+                {
+                    "rel": "replicate",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07b4203041/actions/replicate",
+                    "method": "POST"
+                },
+                {
+                    "rel": "create_resend",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07b4203041/actions/create-resend",
+                    "method": "POST"
+                }
+            ]
+        },
+        {
+            "id": "07ee1cbf7c",
+            "web_id": 2744877,
+            "type": "regular",
+            "create_time": "2019-06-09T13:09:44+00:00",
+            "archive_url": "http://eepurl.com/guhKcL",
+            "long_archive_url": "https://mailchi.mp/groovemonkee/june2019-reminder",
+            "status": "sent",
+            "emails_sent": 15327,
+            "send_time": "2019-06-09T14:00:00+00:00",
+            "content_type": "template",
+            "needs_block_refresh": false,
+            "resendable": true,
+            "recipients": {
+                "list_id": "761df5fbb3",
+                "list_is_active": true,
+                "list_name": "current",
+                "segment_text": "",
+                "recipient_count": 15327
+            },
+            "settings": {
+                "subject_line": "Free Track | June Sale Ends Soon",
+                "preview_text": "Save Up to 45%\u00a0 | Plus A New Free Full-length Track @ Beat Farm",
+                "title": "June 2019 Reminder",
+                "from_name": "Groove Monkee",
+                "reply_to": "contact@groovemonkee.com",
+                "use_conversation": false,
+                "to_name": "",
+                "folder_id": "",
+                "authenticate": true,
+                "auto_footer": false,
+                "inline_css": false,
+                "auto_tweet": false,
+                "fb_comments": true,
+                "timewarp": false,
+                "template_id": 478221,
+                "drag_and_drop": true
+            },
+            "tracking": {
+                "opens": true,
+                "html_clicks": true,
+                "text_clicks": false,
+                "goal_tracking": false,
+                "ecomm360": true,
+                "google_analytics": "",
+                "clicktale": ""
+            },
+            "report_summary": {
+                "opens": 6501,
+                "unique_opens": 4381,
+                "open_rate": 0.28637730422277424,
+                "clicks": 747,
+                "subscriber_clicks": 566,
+                "click_rate": 0.036998300431428946,
+                "ecommerce": {
+                    "total_orders": 0,
+                    "total_spent": 0,
+                    "total_revenue": 0
+                }
+            },
+            "delivery_status": {
+                "enabled": false
+            },
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/CollectionResponse.json",
+                    "schema": "https://us9.api.mailchimp.com/schema/3.0/CollectionLinks/Campaigns.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07ee1cbf7c",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Response.json"
+                },
+                {
+                    "rel": "delete",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07ee1cbf7c",
+                    "method": "DELETE"
+                },
+                {
+                    "rel": "send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07ee1cbf7c/actions/send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "cancel_send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07ee1cbf7c/actions/cancel-send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "feedback",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07ee1cbf7c/feedback",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Feedback/CollectionResponse.json"
+                },
+                {
+                    "rel": "content",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07ee1cbf7c/content",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Content/Response.json"
+                },
+                {
+                    "rel": "send_checklist",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07ee1cbf7c/send-checklist",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Checklist/Response.json"
+                },
+                {
+                    "rel": "pause",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07ee1cbf7c/actions/pause",
+                    "method": "POST"
+                },
+                {
+                    "rel": "resume",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07ee1cbf7c/actions/resume",
+                    "method": "POST"
+                },
+                {
+                    "rel": "replicate",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07ee1cbf7c/actions/replicate",
+                    "method": "POST"
+                },
+                {
+                    "rel": "create_resend",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/07ee1cbf7c/actions/create-resend",
+                    "method": "POST"
+                }
+            ]
+        },
+        {
+            "id": "088aa82f12",
+            "web_id": 2745062,
+            "type": "regular",
+            "create_time": "2020-10-01T20:33:34+00:00",
+            "archive_url": "http://eepurl.com/he1gqX",
+            "long_archive_url": "https://mailchi.mp/groovemonkee/2020-october",
+            "status": "sent",
+            "emails_sent": 15182,
+            "send_time": "2020-10-03T14:02:51+00:00",
+            "content_type": "template",
+            "needs_block_refresh": false,
+            "resendable": true,
+            "recipients": {
+                "list_id": "761df5fbb3",
+                "list_is_active": true,
+                "list_name": "current",
+                "segment_text": "",
+                "recipient_count": 15182
+            },
+            "settings": {
+                "subject_line": "October Savings Event | $10.95 MIDI Packs",
+                "preview_text": "No Coupon Codes Needed | Zenbeats v2 MIDI Installation Guide |",
+                "title": "2020 October",
+                "from_name": "Groove Monkee",
+                "reply_to": "contact@groovemonkee.com",
+                "use_conversation": false,
+                "to_name": "",
+                "folder_id": "",
+                "authenticate": true,
+                "auto_footer": false,
+                "inline_css": false,
+                "auto_tweet": false,
+                "fb_comments": true,
+                "timewarp": false,
+                "template_id": 478221,
+                "drag_and_drop": true
+            },
+            "tracking": {
+                "opens": true,
+                "html_clicks": true,
+                "text_clicks": false,
+                "goal_tracking": false,
+                "ecomm360": true,
+                "google_analytics": "",
+                "clicktale": ""
+            },
+            "report_summary": {
+                "opens": 6315,
+                "unique_opens": 4118,
+                "open_rate": 0.2718151815181518,
+                "clicks": 566,
+                "subscriber_clicks": 389,
+                "click_rate": 0.025676567656765677,
+                "ecommerce": {
+                    "total_orders": 0,
+                    "total_spent": 0,
+                    "total_revenue": 0
+                }
+            },
+            "delivery_status": {
+                "enabled": false
+            },
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/CollectionResponse.json",
+                    "schema": "https://us9.api.mailchimp.com/schema/3.0/CollectionLinks/Campaigns.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/088aa82f12",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Response.json"
+                },
+                {
+                    "rel": "delete",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/088aa82f12",
+                    "method": "DELETE"
+                },
+                {
+                    "rel": "send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/088aa82f12/actions/send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "cancel_send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/088aa82f12/actions/cancel-send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "feedback",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/088aa82f12/feedback",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Feedback/CollectionResponse.json"
+                },
+                {
+                    "rel": "content",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/088aa82f12/content",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Content/Response.json"
+                },
+                {
+                    "rel": "send_checklist",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/088aa82f12/send-checklist",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Checklist/Response.json"
+                },
+                {
+                    "rel": "pause",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/088aa82f12/actions/pause",
+                    "method": "POST"
+                },
+                {
+                    "rel": "resume",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/088aa82f12/actions/resume",
+                    "method": "POST"
+                },
+                {
+                    "rel": "replicate",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/088aa82f12/actions/replicate",
+                    "method": "POST"
+                },
+                {
+                    "rel": "create_resend",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/088aa82f12/actions/create-resend",
+                    "method": "POST"
+                }
+            ]
+        },
+        {
+            "id": "0afbf6e555",
+            "web_id": 2744733,
+            "type": "regular",
+            "create_time": "2018-11-08T12:59:35+00:00",
+            "archive_url": "http://eepurl.com/dMU_go",
+            "long_archive_url": "https://mailchi.mp/groovemonkee/sale-ending-ssd5-previous-downloads",
+            "status": "sent",
+            "emails_sent": 17659,
+            "send_time": "2018-11-08T15:15:00+00:00",
+            "content_type": "template",
+            "needs_block_refresh": false,
+            "resendable": true,
+            "recipients": {
+                "list_id": "761df5fbb3",
+                "list_is_active": true,
+                "list_name": "current",
+                "segment_text": "",
+                "recipient_count": 17659
+            },
+            "settings": {
+                "subject_line": "Sale Ending | SSD5\u00a0\u270c | Previous Downloads",
+                "preview_text": "November specials, SSD5 news and more",
+                "title": "2018 November sale ending",
+                "from_name": "Groove Monkee",
+                "reply_to": "contact@groovemonkee.com",
+                "use_conversation": false,
+                "to_name": "",
+                "folder_id": "",
+                "authenticate": true,
+                "auto_footer": false,
+                "inline_css": false,
+                "auto_tweet": false,
+                "fb_comments": true,
+                "timewarp": false,
+                "template_id": 474829,
+                "drag_and_drop": true
+            },
+            "tracking": {
+                "opens": true,
+                "html_clicks": true,
+                "text_clicks": false,
+                "goal_tracking": false,
+                "ecomm360": true,
+                "google_analytics": "",
+                "clicktale": ""
+            },
+            "report_summary": {
+                "opens": 6438,
+                "unique_opens": 4437,
+                "open_rate": 0.2518875957990349,
+                "clicks": 717,
+                "subscriber_clicks": 537,
+                "click_rate": 0.030485381776894693,
+                "ecommerce": {
+                    "total_orders": 0,
+                    "total_spent": 0,
+                    "total_revenue": 0
+                }
+            },
+            "delivery_status": {
+                "enabled": false
+            },
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/CollectionResponse.json",
+                    "schema": "https://us9.api.mailchimp.com/schema/3.0/CollectionLinks/Campaigns.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0afbf6e555",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Response.json"
+                },
+                {
+                    "rel": "delete",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0afbf6e555",
+                    "method": "DELETE"
+                },
+                {
+                    "rel": "send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0afbf6e555/actions/send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "cancel_send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0afbf6e555/actions/cancel-send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "feedback",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0afbf6e555/feedback",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Feedback/CollectionResponse.json"
+                },
+                {
+                    "rel": "content",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0afbf6e555/content",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Content/Response.json"
+                },
+                {
+                    "rel": "send_checklist",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0afbf6e555/send-checklist",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Checklist/Response.json"
+                },
+                {
+                    "rel": "pause",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0afbf6e555/actions/pause",
+                    "method": "POST"
+                },
+                {
+                    "rel": "resume",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0afbf6e555/actions/resume",
+                    "method": "POST"
+                },
+                {
+                    "rel": "replicate",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0afbf6e555/actions/replicate",
+                    "method": "POST"
+                },
+                {
+                    "rel": "create_resend",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0afbf6e555/actions/create-resend",
+                    "method": "POST"
+                }
+            ]
+        },
+        {
+            "id": "0f52019cbe",
+            "web_id": 2744929,
+            "type": "regular",
+            "create_time": "2019-10-30T16:40:56+00:00",
+            "archive_url": "http://eepurl.com/gIaDzj",
+            "long_archive_url": "https://mailchi.mp/groovemonkee/october-reminder-2744929",
+            "status": "sent",
+            "emails_sent": 13196,
+            "send_time": "2019-10-31T14:45:00+00:00",
+            "content_type": "template",
+            "needs_block_refresh": false,
+            "resendable": true,
+            "recipients": {
+                "list_id": "761df5fbb3",
+                "list_is_active": true,
+                "list_name": "current",
+                "segment_text": "",
+                "recipient_count": 13196
+            },
+            "settings": {
+                "subject_line": "Halloween Savings |MIDI Packs $10.95 Each | Important Account Reminder",
+                "preview_text": "Save on EVERYTHING\u00a0 in our Shop | No coupon codes necessary | Important Account Reminder",
+                "title": "November 2019",
+                "from_name": "Groove Monkee",
+                "reply_to": "contact@groovemonkee.com",
+                "use_conversation": false,
+                "to_name": "",
+                "folder_id": "",
+                "authenticate": true,
+                "auto_footer": false,
+                "inline_css": false,
+                "auto_tweet": false,
+                "fb_comments": true,
+                "timewarp": false,
+                "template_id": 478221,
+                "drag_and_drop": true
+            },
+            "tracking": {
+                "opens": true,
+                "html_clicks": true,
+                "text_clicks": false,
+                "goal_tracking": false,
+                "ecomm360": true,
+                "google_analytics": "",
+                "clicktale": ""
+            },
+            "report_summary": {
+                "opens": 6279,
+                "unique_opens": 4171,
+                "open_rate": 0.31665654418463407,
+                "clicks": 745,
+                "subscriber_clicks": 572,
+                "click_rate": 0.04342544791982994,
+                "ecommerce": {
+                    "total_orders": 0,
+                    "total_spent": 0,
+                    "total_revenue": 0
+                }
+            },
+            "delivery_status": {
+                "enabled": false
+            },
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/CollectionResponse.json",
+                    "schema": "https://us9.api.mailchimp.com/schema/3.0/CollectionLinks/Campaigns.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0f52019cbe",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Response.json"
+                },
+                {
+                    "rel": "delete",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0f52019cbe",
+                    "method": "DELETE"
+                },
+                {
+                    "rel": "send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0f52019cbe/actions/send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "cancel_send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0f52019cbe/actions/cancel-send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "feedback",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0f52019cbe/feedback",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Feedback/CollectionResponse.json"
+                },
+                {
+                    "rel": "content",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0f52019cbe/content",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Content/Response.json"
+                },
+                {
+                    "rel": "send_checklist",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0f52019cbe/send-checklist",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Checklist/Response.json"
+                },
+                {
+                    "rel": "pause",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0f52019cbe/actions/pause",
+                    "method": "POST"
+                },
+                {
+                    "rel": "resume",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0f52019cbe/actions/resume",
+                    "method": "POST"
+                },
+                {
+                    "rel": "replicate",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0f52019cbe/actions/replicate",
+                    "method": "POST"
+                },
+                {
+                    "rel": "create_resend",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/0f52019cbe/actions/create-resend",
+                    "method": "POST"
+                }
+            ]
+        },
+        {
+            "id": "10b7c5b2cb",
+            "web_id": 2744765,
+            "type": "regular",
+            "create_time": "2019-01-02T19:57:43+00:00",
+            "archive_url": "http://eepurl.com/gcWbWT",
+            "long_archive_url": "https://us9.campaign-archive.com/?u=d2e03e723e89cd3e8973387bd&id=10b7c5b2cb",
+            "status": "save",
+            "emails_sent": 0,
+            "send_time": "",
+            "content_type": "template",
+            "needs_block_refresh": false,
+            "resendable": false,
+            "recipients": {
+                "list_id": "761df5fbb3",
+                "list_is_active": true,
+                "list_name": "current",
+                "segment_text": "",
+                "recipient_count": 15232
+            },
+            "settings": {
+                "subject_line": "Holiday Sale Ending Soon | Mega Update",
+                "preview_text": "We've updated the Mega Pack | How to download again",
+                "title": "Holiday Sale Ending Soon",
+                "from_name": "Groove Monkee",
+                "reply_to": "contact@groovemonkee.com",
+                "use_conversation": false,
+                "to_name": "",
+                "folder_id": "",
+                "authenticate": true,
+                "auto_footer": false,
+                "inline_css": false,
+                "auto_tweet": false,
+                "fb_comments": true,
+                "timewarp": false,
+                "template_id": 474865,
+                "drag_and_drop": true
+            },
+            "tracking": {
+                "opens": true,
+                "html_clicks": true,
+                "text_clicks": false,
+                "goal_tracking": false,
+                "ecomm360": true,
+                "google_analytics": "",
+                "clicktale": ""
+            },
+            "delivery_status": {
+                "enabled": false
+            },
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/CollectionResponse.json",
+                    "schema": "https://us9.api.mailchimp.com/schema/3.0/CollectionLinks/Campaigns.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/10b7c5b2cb",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Response.json"
+                },
+                {
+                    "rel": "delete",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/10b7c5b2cb",
+                    "method": "DELETE"
+                },
+                {
+                    "rel": "send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/10b7c5b2cb/actions/send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "cancel_send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/10b7c5b2cb/actions/cancel-send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "feedback",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/10b7c5b2cb/feedback",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Feedback/CollectionResponse.json"
+                },
+                {
+                    "rel": "content",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/10b7c5b2cb/content",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Content/Response.json"
+                },
+                {
+                    "rel": "send_checklist",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/10b7c5b2cb/send-checklist",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Checklist/Response.json"
+                },
+                {
+                    "rel": "pause",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/10b7c5b2cb/actions/pause",
+                    "method": "POST"
+                },
+                {
+                    "rel": "resume",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/10b7c5b2cb/actions/resume",
+                    "method": "POST"
+                },
+                {
+                    "rel": "replicate",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/10b7c5b2cb/actions/replicate",
+                    "method": "POST"
+                },
+                {
+                    "rel": "create_resend",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/10b7c5b2cb/actions/create-resend",
+                    "method": "POST"
+                }
+            ]
+        },
+        {
+            "id": "1a56a7cf1c",
+            "web_id": 2745058,
+            "type": "regular",
+            "create_time": "2020-09-08T12:55:57+00:00",
+            "archive_url": "http://eepurl.com/hcR8Tz",
+            "long_archive_url": "https://mailchi.mp/groovemonkee/2020-september-reminder",
+            "status": "sent",
+            "emails_sent": 15075,
+            "send_time": "2020-09-12T14:00:00+00:00",
+            "content_type": "template",
+            "needs_block_refresh": false,
+            "resendable": true,
+            "recipients": {
+                "list_id": "761df5fbb3",
+                "list_is_active": true,
+                "list_name": "current",
+                "segment_text": "",
+                "recipient_count": 15075
+            },
+            "settings": {
+                "subject_line": "September Sale Ending | No Coupons Needed",
+                "preview_text": "$10.95 MIDI Packs | Mac Catalina Installer Reminder",
+                "title": "2020 September Reminder",
+                "from_name": "Groove Monkee",
+                "reply_to": "contact@groovemonkee.com",
+                "use_conversation": false,
+                "to_name": "",
+                "folder_id": "",
+                "authenticate": true,
+                "auto_footer": false,
+                "inline_css": false,
+                "auto_tweet": false,
+                "fb_comments": true,
+                "timewarp": false,
+                "template_id": 478221,
+                "drag_and_drop": true
+            },
+            "tracking": {
+                "opens": true,
+                "html_clicks": true,
+                "text_clicks": false,
+                "goal_tracking": false,
+                "ecomm360": true,
+                "google_analytics": "",
+                "clicktale": ""
+            },
+            "report_summary": {
+                "opens": 6281,
+                "unique_opens": 4067,
+                "open_rate": 0.2704302147749185,
+                "clicks": 504,
+                "subscriber_clicks": 354,
+                "click_rate": 0.023538799122282066,
+                "ecommerce": {
+                    "total_orders": 0,
+                    "total_spent": 0,
+                    "total_revenue": 0
+                }
+            },
+            "delivery_status": {
+                "enabled": false
+            },
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/CollectionResponse.json",
+                    "schema": "https://us9.api.mailchimp.com/schema/3.0/CollectionLinks/Campaigns.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/1a56a7cf1c",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Response.json"
+                },
+                {
+                    "rel": "delete",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/1a56a7cf1c",
+                    "method": "DELETE"
+                },
+                {
+                    "rel": "send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/1a56a7cf1c/actions/send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "cancel_send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/1a56a7cf1c/actions/cancel-send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "feedback",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/1a56a7cf1c/feedback",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Feedback/CollectionResponse.json"
+                },
+                {
+                    "rel": "content",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/1a56a7cf1c/content",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Content/Response.json"
+                },
+                {
+                    "rel": "send_checklist",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/1a56a7cf1c/send-checklist",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Checklist/Response.json"
+                },
+                {
+                    "rel": "pause",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/1a56a7cf1c/actions/pause",
+                    "method": "POST"
+                },
+                {
+                    "rel": "resume",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/1a56a7cf1c/actions/resume",
+                    "method": "POST"
+                },
+                {
+                    "rel": "replicate",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/1a56a7cf1c/actions/replicate",
+                    "method": "POST"
+                },
+                {
+                    "rel": "create_resend",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/1a56a7cf1c/actions/create-resend",
+                    "method": "POST"
+                }
+            ]
+        },
+        {
+            "id": "2c93e71554",
+            "web_id": 2744781,
+            "type": "regular",
+            "create_time": "2019-01-31T13:48:19+00:00",
+            "archive_url": "http://eepurl.com/gfRP-T",
+            "long_archive_url": "https://mailchi.mp/groovemonkee/feb2019-savings",
+            "status": "sent",
+            "emails_sent": 18891,
+            "send_time": "2019-01-31T15:15:00+00:00",
+            "content_type": "template",
+            "needs_block_refresh": false,
+            "resendable": true,
+            "recipients": {
+                "list_id": "761df5fbb3",
+                "list_is_active": true,
+                "list_name": "current",
+                "segment_text": "",
+                "recipient_count": 18891
+            },
+            "settings": {
+                "subject_line": "Free Track | Winter Savings | Mega Update",
+                "preview_text": "Save UP to 50%\u00a0 Plus A New Free Full-length Track @ Beat Farm",
+                "title": "Feb 2019",
+                "from_name": "Groove Monkee",
+                "reply_to": "contact@groovemonkee.com",
+                "use_conversation": false,
+                "to_name": "",
+                "folder_id": "",
+                "authenticate": true,
+                "auto_footer": false,
+                "inline_css": false,
+                "auto_tweet": false,
+                "fb_comments": true,
+                "timewarp": false,
+                "template_id": 478221,
+                "drag_and_drop": true
+            },
+            "tracking": {
+                "opens": true,
+                "html_clicks": true,
+                "text_clicks": false,
+                "goal_tracking": false,
+                "ecomm360": true,
+                "google_analytics": "",
+                "clicktale": ""
+            },
+            "report_summary": {
+                "opens": 7364,
+                "unique_opens": 4733,
+                "open_rate": 0.251501142462405,
+                "clicks": 1037,
+                "subscriber_clicks": 754,
+                "click_rate": 0.040065890854986984,
+                "ecommerce": {
+                    "total_orders": 0,
+                    "total_spent": 0,
+                    "total_revenue": 0
+                }
+            },
+            "delivery_status": {
+                "enabled": false
+            },
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/CollectionResponse.json",
+                    "schema": "https://us9.api.mailchimp.com/schema/3.0/CollectionLinks/Campaigns.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2c93e71554",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Response.json"
+                },
+                {
+                    "rel": "delete",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2c93e71554",
+                    "method": "DELETE"
+                },
+                {
+                    "rel": "send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2c93e71554/actions/send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "cancel_send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2c93e71554/actions/cancel-send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "feedback",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2c93e71554/feedback",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Feedback/CollectionResponse.json"
+                },
+                {
+                    "rel": "content",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2c93e71554/content",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Content/Response.json"
+                },
+                {
+                    "rel": "send_checklist",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2c93e71554/send-checklist",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Checklist/Response.json"
+                },
+                {
+                    "rel": "pause",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2c93e71554/actions/pause",
+                    "method": "POST"
+                },
+                {
+                    "rel": "resume",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2c93e71554/actions/resume",
+                    "method": "POST"
+                },
+                {
+                    "rel": "replicate",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2c93e71554/actions/replicate",
+                    "method": "POST"
+                },
+                {
+                    "rel": "create_resend",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2c93e71554/actions/create-resend",
+                    "method": "POST"
+                }
+            ]
+        },
+        {
+            "id": "2edd1dbe36",
+            "web_id": 2744905,
+            "type": "regular",
+            "create_time": "2019-09-13T20:02:00+00:00",
+            "archive_url": "http://eepurl.com/gDmDCn",
+            "long_archive_url": "https://mailchi.mp/groovemonkee/sept-reminder",
+            "status": "sent",
+            "emails_sent": 16783,
+            "send_time": "2019-09-14T14:14:07+00:00",
+            "content_type": "template",
+            "needs_block_refresh": false,
+            "resendable": true,
+            "recipients": {
+                "list_id": "761df5fbb3",
+                "list_is_active": true,
+                "list_name": "current",
+                "segment_text": "",
+                "recipient_count": 16783
+            },
+            "settings": {
+                "subject_line": "Sale Ends Soon | Recent Product Updates",
+                "preview_text": "Save on everything in our shop - No coupon codes necessary | 3 Packs Upgraded",
+                "title": "September 2019 reminder",
+                "from_name": "Groove Monkee",
+                "reply_to": "contact@groovemonkee.com",
+                "use_conversation": false,
+                "to_name": "",
+                "folder_id": "",
+                "authenticate": true,
+                "auto_footer": false,
+                "inline_css": false,
+                "auto_tweet": false,
+                "fb_comments": true,
+                "timewarp": false,
+                "template_id": 478221,
+                "drag_and_drop": true
+            },
+            "tracking": {
+                "opens": true,
+                "html_clicks": true,
+                "text_clicks": false,
+                "goal_tracking": false,
+                "ecomm360": true,
+                "google_analytics": "",
+                "clicktale": ""
+            },
+            "report_summary": {
+                "opens": 6328,
+                "unique_opens": 4062,
+                "open_rate": 0.24663023679417123,
+                "clicks": 753,
+                "subscriber_clicks": 556,
+                "click_rate": 0.03375834851244687,
+                "ecommerce": {
+                    "total_orders": 0,
+                    "total_spent": 0,
+                    "total_revenue": 0
+                }
+            },
+            "delivery_status": {
+                "enabled": false
+            },
+            "_links": [
+                {
+                    "rel": "parent",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/CollectionResponse.json",
+                    "schema": "https://us9.api.mailchimp.com/schema/3.0/CollectionLinks/Campaigns.json"
+                },
+                {
+                    "rel": "self",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2edd1dbe36",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Response.json"
+                },
+                {
+                    "rel": "delete",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2edd1dbe36",
+                    "method": "DELETE"
+                },
+                {
+                    "rel": "send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2edd1dbe36/actions/send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "cancel_send",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2edd1dbe36/actions/cancel-send",
+                    "method": "POST"
+                },
+                {
+                    "rel": "feedback",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2edd1dbe36/feedback",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Feedback/CollectionResponse.json"
+                },
+                {
+                    "rel": "content",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2edd1dbe36/content",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Content/Response.json"
+                },
+                {
+                    "rel": "send_checklist",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2edd1dbe36/send-checklist",
+                    "method": "GET",
+                    "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Checklist/Response.json"
+                },
+                {
+                    "rel": "pause",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2edd1dbe36/actions/pause",
+                    "method": "POST"
+                },
+                {
+                    "rel": "resume",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2edd1dbe36/actions/resume",
+                    "method": "POST"
+                },
+                {
+                    "rel": "replicate",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2edd1dbe36/actions/replicate",
+                    "method": "POST"
+                },
+                {
+                    "rel": "create_resend",
+                    "href": "https://us9.api.mailchimp.com/3.0/campaigns/2edd1dbe36/actions/create-resend",
+                    "method": "POST"
+                }
+            ]
+        }
+    ],
+    "total_items": 68,
+    "_links": [
+        {
+            "rel": "parent",
+            "href": "https://us9.api.mailchimp.com/3.0/",
+            "method": "GET",
+            "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Root/Response.json"
+        },
+        {
+            "rel": "self",
+            "href": "https://us9.api.mailchimp.com/3.0/campaigns",
+            "method": "GET",
+            "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/CollectionResponse.json",
+            "schema": "https://us9.api.mailchimp.com/schema/3.0/CollectionLinks/Campaigns.json"
+        },
+        {
+            "rel": "create",
+            "href": "https://us9.api.mailchimp.com/3.0/campaigns",
+            "method": "POST",
+            "targetSchema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/Response.json",
+            "schema": "https://us9.api.mailchimp.com/schema/3.0/Definitions/Campaigns/POST.json"
+        }
+    ]
+}

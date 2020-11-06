@@ -1,0 +1,41 @@
+{
+  "sent_to": [
+    {
+      "email_id": "string",
+      "email_address": "string",
+      "merge_fields": {
+        "property1": null,
+        "property2": null
+      },
+      "vip": true,
+      "status": "string",
+      "open_count": 0,
+      "last_open": "2019-08-24T14:15:22Z",
+      "absplit_group": "string",
+      "gmt_offset": 0,
+      "campaign_id": "string",
+      "list_id": "string",
+      "list_is_active": true,
+      "_links": [
+        {
+          "rel": "string",
+          "href": "string",
+          "method": "GET",
+          "targetSchema": "string",
+          "schema": "string"
+        }
+      ]
+    }
+  ],
+  "campaign_id": "string",
+  "total_items": 0,
+  "_links": [
+    {
+      "rel": "string",
+      "href": "string",
+      "method": "GET",
+      "targetSchema": "string",
+      "schema": "string"
+    }
+  ]
+}

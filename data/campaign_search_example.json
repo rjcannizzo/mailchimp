@@ -1,0 +1,187 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "id": "string",
+        "web_id": 0,
+        "parent_campaign_id": "string",
+        "type": "regular",
+        "create_time": "2019-08-24T14:15:22Z",
+        "archive_url": "string",
+        "long_archive_url": "string",
+        "status": "string",
+        "emails_sent": 0,
+        "send_time": "2019-08-24T14:15:22Z",
+        "content_type": "template",
+        "needs_block_refresh": true,
+        "resendable": true,
+        "recipients": {
+          "list_id": "string",
+          "list_is_active": true,
+          "list_name": "string",
+          "segment_text": "string",
+          "recipient_count": 0,
+          "segment_opts": {
+            "saved_segment_id": 0,
+            "prebuilt_segment_id": "subscribers-female",
+            "match": "any",
+            "conditions": [
+              null
+            ]
+          }
+        },
+        "settings": {
+          "subject_line": "string",
+          "preview_text": "string",
+          "title": "string",
+          "from_name": "string",
+          "reply_to": "string",
+          "use_conversation": true,
+          "to_name": "string",
+          "folder_id": "string",
+          "authenticate": true,
+          "auto_footer": true,
+          "inline_css": true,
+          "auto_tweet": true,
+          "auto_fb_post": [
+            "string"
+          ],
+          "fb_comments": true,
+          "timewarp": true,
+          "template_id": 0,
+          "drag_and_drop": true
+        },
+        "variate_settings": {
+          "winning_combination_id": "string",
+          "winning_campaign_id": "string",
+          "winner_criteria": "opens",
+          "wait_time": 0,
+          "test_size": 0,
+          "subject_lines": [
+            "string"
+          ],
+          "send_times": [
+            "2019-08-24T14:15:22Z"
+          ],
+          "from_names": [
+            "string"
+          ],
+          "reply_to_addresses": [
+            "string"
+          ],
+          "contents": [
+            "string"
+          ],
+          "combinations": [
+            {
+              "id": "string",
+              "subject_line": 0,
+              "send_time": 0,
+              "from_name": 0,
+              "reply_to": 0,
+              "content_description": 0,
+              "recipients": 0
+            }
+          ]
+        },
+        "tracking": {
+          "opens": true,
+          "html_clicks": true,
+          "text_clicks": true,
+          "goal_tracking": true,
+          "ecomm360": true,
+          "google_analytics": "string",
+          "clicktale": "string",
+          "salesforce": {
+            "campaign": true,
+            "notes": true
+          },
+          "capsule": {
+            "notes": true
+          }
+        },
+        "rss_opts": {
+          "feed_url": "http://example.com",
+          "frequency": "daily",
+          "schedule": {
+            "hour": 0,
+            "daily_send": {
+              "sunday": true,
+              "monday": true,
+              "tuesday": true,
+              "wednesday": true,
+              "thursday": true,
+              "friday": true,
+              "saturday": true
+            },
+            "weekly_send_day": "sunday",
+            "monthly_send_date": 0
+          },
+          "last_sent": "2019-08-24T14:15:22Z",
+          "constrain_rss_img": true
+        },
+        "ab_split_opts": {
+          "split_test": "subject",
+          "pick_winner": "opens",
+          "wait_units": "hours",
+          "wait_time": 0,
+          "split_size": 1,
+          "from_name_a": "string",
+          "from_name_b": "string",
+          "reply_email_a": "string",
+          "reply_email_b": "string",
+          "subject_a": "string",
+          "subject_b": "string",
+          "send_time_a": "2019-08-24T14:15:22Z",
+          "send_time_b": "2019-08-24T14:15:22Z",
+          "send_time_winner": "string"
+        },
+        "social_card": {
+          "image_url": "string",
+          "description": "string",
+          "title": "string"
+        },
+        "report_summary": {
+          "opens": 0,
+          "unique_opens": 0,
+          "open_rate": 0,
+          "clicks": 0,
+          "subscriber_clicks": 0,
+          "click_rate": 0,
+          "ecommerce": {
+            "total_orders": 0,
+            "total_spent": 0,
+            "total_revenue": 0
+          }
+        },
+        "delivery_status": {
+          "enabled": true,
+          "can_cancel": true,
+          "status": "delivering",
+          "emails_sent": 0,
+          "emails_canceled": 0
+        },
+        "_links": [
+          {
+            "rel": "string",
+            "href": "string",
+            "method": "GET",
+            "targetSchema": "string",
+            "schema": "string"
+          }
+        ]
+      },
+      "snippet": "string"
+    }
+  ],
+  "total_items": 0,
+  "_links": [
+    {
+      "rel": "string",
+      "href": "string",
+      "method": "GET",
+      "targetSchema": "string",
+      "schema": "string"
+    }
+  ]
+}
